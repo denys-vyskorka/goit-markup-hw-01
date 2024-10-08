@@ -1,0 +1,91 @@
+/* Base styles */
+body{
+color: #434455;
+margin: 0;
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+}
+
+ul {
+list-style-type: none;
+} 
+a{
+    text-decoration: none;
+}
+button {
+    font-family: inherit;
+
+}
+/* Header styles */
+.header-logo{
+    font-family:'Raleway', sans-serif; ;
+    color: #2E2F42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-transform: uppercase;
+
+}
+
+.logo-accent{
+    color: #4D5AE5;
+}
+
+.header-link{
+    color: #2E2F42;
+    font-weight: 500;
+}
+.header-link:hover{
+   color: #404BBF; 
+}
+
+.contact-link{
+    color: #434455;
+    font-style: normal;
+}
+.contact-link:hover{
+    color: #404BBF;
+}
+.header-nav {
+    display: flex;
+    gap: 40px;
+}
+/* Main information styles */
+.hero-section{
+    background-color: #2E2F42;
+    padding: 188px 0px;
+}
+.hero-title{
+    color: #FFFFFF;
+    text-align: center;
+}
+.button {
+    display: block;
+    margin: 0 auto;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.button:hover{
+  background-color: #404BBF;
+}
+/* Our advantages section */
+.advantage-title{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-title{
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+}

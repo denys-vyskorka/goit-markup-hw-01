@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../test website"
+	},
+	{
+		"path": "../resume-project"
+	},
+	{
+		"path": "."
+	},
+	{
+		"path": "../demo"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goit-markup-hw-01"
+  }
+}
